@@ -32,6 +32,10 @@ FLAPPY_BIRD_PYTHON/
 
 # Funcionamento
 
+O jogo utiliza o Pygame para controlar a janela, imagens, sons, eventos e a lógica principal do jogo.
+O funcionamento é baseado em um Game Loop, que fica sendo executado continuamente. A cada ciclo, o jogo verifica os eventos do teclado, atualiza a posição do Pokémon e dos obstáculos, verifica colisões, atualiza a pontuação e redesenha os elementos na tela.
+
+<br>
 O jogo funciona apartir da biblioteca pygame.
 
 def drawn_floor() --> Desenha o chão na tela e reposiciona as imagens para criar o efeito de um chão contínuo.
