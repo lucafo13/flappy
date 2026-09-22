@@ -1,4 +1,5 @@
 # FlappyMon 
+<img width="573" height="742" alt="image" src="https://github.com/user-attachments/assets/4a16164b-fe8e-4770-9b9c-57aa96441704" />
 
 # Integrantes
 
