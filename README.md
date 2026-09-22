@@ -34,9 +34,22 @@ FLAPPY_BIRD_PYTHON/
 
 O jogo funciona apartir da biblioteca pygame.
 
-<br>
-**def drawn_floor()** -->   
-**def create_pipe()** --> Cria os obstáculos aleatóriamente, escolhendo, na função, a altura tanto do cano de cima, quanto do cano de baixo 
-**move_pipes** --> Move os  obstáculos para a direção do jogador, causando o efeito de que o pokémon está se movendo  
-****
+def drawn_floor() --> Desenha o chão na tela e reposiciona as imagens para criar o efeito de um chão contínuo.
 
+<br>def create_pipe() --> Cria os obstáculos aleatoriamente, escolhendo a altura dos canos e definindo a posição do cano de cima e do cano de baixo.
+
+<br>def move_pipes() --> Move os obstáculos para a esquerda, criando o efeito de que o Pokémon está avançando pelo cenário.
+
+<br>def draw_pipes() --> Desenha os canos na tela, invertendo verticalmente a imagem quando necessário para representar o cano de cima.
+
+<br>def check_collision() --> Verifica se o Pokémon colidiu com algum cano ou saiu dos limites da tela. Caso aconteça, encerra a partida.
+
+<br>def rotate_bird() --> Rotaciona o Pokémon de acordo com seu movimento vertical, fazendo ele inclinar enquanto sobe ou desce.
+
+<br>def bird_animation() --> Controla os frames da animação do Pokémon, alternando entre as imagens disponíveis.
+
+<br>def update_score() --> Verifica e atualiza a maior pontuação alcançada pelo jogador.
+
+<br>def pipe_score_check() --> Verifica quando o Pokémon passa pelos obstáculos e aumenta a pontuação.
+
+<br>while True: --> Mantém o jogo funcionando continuamente, processando eventos, atualizando os elementos e desenhando a tela a cada frame.
